@@ -1,0 +1,4 @@
+3
+# 3 3 10 moving1.txt bullet1.txt
+# 3 3 65 moving1.txt bullet1.txt
+@ 4 4 40 moving2.txt bullet2.txt

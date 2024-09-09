@@ -1,0 +1,3 @@
+C:\Users\User\Desktop\procademy_project\procademy\project\new_Overloding\hw10_new_Overloding\hw10_new_Overloding.cpp 142 [0080871C] 
+NOALLOC [0080871C] 
+LEAK [00808718] [        28] C:\Users\User\Desktop\procademy_project\procademy\project\new_Overloding\hw10_new_Overloding\hw10_new_Overloding.cpp : 143 

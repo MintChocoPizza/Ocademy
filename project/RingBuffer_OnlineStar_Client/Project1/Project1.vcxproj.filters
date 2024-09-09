@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Base">
+      <UniqueIdentifier>{c6ef67af-c8cc-4b70-b05c-a4086c0f9a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{e4ab4151-8e1d-48f5-80f6-77ab938e4076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{67d3cd89-5fef-4a92-89cf-303ba899105e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scene">
+      <UniqueIdentifier>{303971ad-37dd-4580-89b6-dca889518b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Base">
+      <UniqueIdentifier>{a1bd4b42-9949-4c45-adbc-58ca19bf5216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{d6937fca-dcd1-46f5-b173-c854c670786c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{d193506b-cf09-4ef9-9e0f-24c261c76e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{204950e9-08d6-4181-96fd-d3747fb66969}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectBase.h">
+      <Filter>헤더 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneBase.h">
+      <Filter>헤더 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectLoad.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneLoad.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSessionManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSessionBase.h">
+      <Filter>헤더 파일\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="c_Save_Log.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectBase.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneBase.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectLoad.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneLoad.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSessionManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSessionBase.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Save_Log\Save_Log\c_Save_Log.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

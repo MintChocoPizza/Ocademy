@@ -1,0 +1,3 @@
+C:\Users\dpsem\OneDrive\πŸ≈¡ »≠∏È\procademy\project\new_Overloding\hw10_new_Overloding\hw10_new_Overloding.cpp 142 [007542AC] 
+NOALLOC [007542AC] 
+LEAK [007542A8] [        28] C:\Users\dpsem\OneDrive\πŸ≈¡ »≠∏È\procademy\project\new_Overloding\hw10_new_Overloding\hw10_new_Overloding.cpp : 143 

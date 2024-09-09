@@ -1,0 +1,8 @@
+HP = 3;
+Skin = P;
+Bullet = o;
+Damage = 1;
+
+Speed = 2;
+CoolTime = 5;
+BulletSpeed = 1;

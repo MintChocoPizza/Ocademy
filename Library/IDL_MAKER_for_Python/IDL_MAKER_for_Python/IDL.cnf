@@ -1,0 +1,58 @@
+// 패킷 번호는 0부터 시작한다.
+#PACKETNUM 0
+
+#struct st_PACKET_HEADER
+{
+	BYTE	byCode;
+	BYTE 	bySize;
+	BYTE 	byType;
+};
+#define dfPACKET_CODE		0x89
+#define dfPACKET_MOVE_DIR_LL					0
+#define dfPACKET_MOVE_DIR_LU					1
+#define dfPACKET_MOVE_DIR_UU					2
+#define dfPACKET_MOVE_DIR_RU					3
+#define dfPACKET_MOVE_DIR_RR					4
+#define dfPACKET_MOVE_DIR_RD					5
+#define dfPACKET_MOVE_DIR_DD					6
+#define dfPACKET_MOVE_DIR_LD					7
+
+void packet_SC_Create_My_Character(int ID, char Direction, short X, short Y, char HP)
+void packet_SC_Create_Other_Character(int ID, char Direction, short X, short Y, char HP)
+void packet_SC_Delete_Chatacter(int ID)
+
+#PACKETNUM 10
+void packet_CS_Move_Start(char Direction, short X, short Y)
+void packet_SC_Move_Start(int ID, char Direction, short X, short Y)
+void packet_CS_Move_Stop(char Direction, short X, short Y)
+void packet_SC_Move_Stop(int ID, char Direction, short X, short Y)
+
+#PACKETNUM 20
+void packet_CS_Attack1(char Direction, short X, short Y)
+void pakcet_SC_Attack1(int ID, char Direction, short X, short Y)
+void packet_CS_Attack2(char Direction, short X, short Y)
+void pakcet_SC_Attack2(int ID, char Direction, short X, short Y)
+void packet_CS_Attack3(char Direction, short X, short Y)
+void pakcet_SC_Attack3(int ID, char Direction, short X, short Y)
+
+#PACKETNUM 30
+void packet_SC_Damage(int AttackID, int DamageID, char DamageHP)
+
+#PACKETNUM 251
+void packet_SC_Sync(int ID, short X, short Y)
+void packet_CS_Echo(int Time)
+void packet_SC_Echo(int Time)
+
+
+
+
+
+// 여기서 생성되는 파일 proxy.h proxy.cpp stub.h stub.cpp
+// proxy.h
+// 
+
+
+// 직렬화 버퍼에서 여기에 작성할 때, destID가 여기에 작성되면 안된다. 
+// 하지만 proxy.cpp에는 destID를 작성할 수 있는 매개변수가 있어야 한다. 
+
+// 또한 Stub에도 여기에는 없는 fromID가 따로 생겨야 한다. 

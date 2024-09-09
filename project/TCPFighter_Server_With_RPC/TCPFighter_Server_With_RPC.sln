@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPFighter_Server_With_RPC", "TCPFighter_Server_With_RPC\TCPFighter_Server_With_RPC.vcxproj", "{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Debug|x64.ActiveCfg = Debug|x64
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Debug|x64.Build.0 = Debug|x64
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Debug|x86.Build.0 = Debug|Win32
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Release|x64.ActiveCfg = Release|x64
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Release|x64.Build.0 = Release|x64
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Release|x86.ActiveCfg = Release|Win32
+		{8308B30B-1C63-4C75-A7D9-E5EEE77805DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35A18EC-13F5-4EA2-8A3D-891AB0BA0F28}
+	EndGlobalSection
+EndGlobal

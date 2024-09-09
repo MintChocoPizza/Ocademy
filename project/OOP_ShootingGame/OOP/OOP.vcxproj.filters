@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Scene">
+      <UniqueIdentifier>{4cb3f3b7-2ba3-4a89-a39c-7cbd8dec8277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{f4a30085-922a-4866-a9e5-c20a3d8a8259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{39c34ce4-377c-42bd-aade-48b6dd6a56f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{e7e3431c-32ec-40bc-b438-dc633f625114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Frame">
+      <UniqueIdentifier>{20cc25cf-9167-4b1f-830d-0cce33019ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Frame">
+      <UniqueIdentifier>{17de1414-1f18-4d0d-bb58-2c78d33c1c5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneTitle.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseObject.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneBase.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleBuffer.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="CParsing_ANSI.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneGame.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneLoad.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSManager.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObject.cpp">
+      <Filter>소스 파일\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneClear.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneOver.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyNew.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSceneTitle.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleObject.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseObject.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneBase.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleBuffer.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CList.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CParsing_ANSI.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneGame.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneLoad.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSManager.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>헤더 파일\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneClear.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneOver.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNew.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

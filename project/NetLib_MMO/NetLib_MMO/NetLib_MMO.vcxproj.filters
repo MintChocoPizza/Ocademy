@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\NetLib">
+      <UniqueIdentifier>{2639c4ac-7adc-43ed-b044-e5dc8fa5220d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\NetLib">
+      <UniqueIdentifier>{ee634f18-331b-4ee2-81c7-38e9e49e361e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMMOServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Logger.cpp">
+      <Filter>소스 파일\NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Ring_Buffer.cpp">
+      <Filter>소스 파일\NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CLanServer.cpp">
+      <Filter>소스 파일\NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>소스 파일\NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>소스 파일\NetLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Sector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Contents.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C_Logger.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Ring_Buffer.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebug.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CLanServer.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CLanServerSettings.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryPool.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CStack.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkHeader.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>헤더 파일\NetLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMMOServer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemPoolList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Contents.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MOVE_DIR.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

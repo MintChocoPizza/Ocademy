@@ -1,0 +1,31 @@
+MaxMoving = 18;
+
+// 왼쪽으로 3칸
+MovingCool1 = 6;  MovingY1 = 0;     MovingX1 = -1;
+MovingCool2 = 6;  MovingY2 = 0;     MovingX2 = -1;
+MovingCool3 = 6;  MovingY3 = 0;     MovingX3 = -1;
+
+// 오른쪽 아래 3칸
+MovingCool4 = 6;  MovingY4 = 1;     MovingX4 = 1;
+MovingCool5 = 6;  MovingY5 = 1;     MovingX5 = 1;
+MovingCool6 = 6;  MovingY6 = 1;     MovingX6 = 1;
+
+// 오른쪽 위 3칸
+MovingCool7 = 6;  MovingY7 = -1;    MovingX7 = 1;
+MovingCool8 = 6;  MovingY8 = -1;    MovingX8 = 1;
+MovingCool9 = 6;  MovingY9 = -1;    MovingX9 = 1;
+
+// 왼쪽 위 3칸
+MovingCool10 = 6; MovingY10 = -1;   MovingX10 = -1;
+MovingCool11 = 6; MovingY11 = -1;   MovingX11 = -1;
+MovingCool12 = 6; MovingY12 = -1;   MovingX12 = -1;
+
+// 왼쪽 아래 3칸
+MovingCool13 = 6; MovingY13 = 1;    MovingX13 = -1;
+MovingCool14 = 6; MovingY14 = 1;    MovingX14 = -1;
+MovingCool15 = 6; MovingY15 = 1;    MovingX15 = -1;
+
+// 오른쪽 3칸
+MovingCool16 = 6; MovingY16 = 0;    MovingX16 = 1;
+MovingCool17 = 6; MovingY17 = 0;    MovingX17 = 1;
+MovingCool18 = 6; MovingY18 = 0;    MovingX18 = 1;

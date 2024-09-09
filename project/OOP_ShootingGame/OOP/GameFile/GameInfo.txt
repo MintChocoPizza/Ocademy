@@ -1,0 +1,2 @@
+gameName = Shoting Game;
+Version = 1.0.1;

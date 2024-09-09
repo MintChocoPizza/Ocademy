@@ -1,0 +1,5 @@
+MaxBullet = 3;
+
+Skin1 = V; Damage1 = 1; DY1 = 1; DX1 = 0; CoolTime1 = 25; Speed1 = 5;
+Skin2 = (; Damage2 = 1; DY2 = 1; DX2 = -1; CoolTime2 = 25; Speed2 = 5;
+Skin3 = ); Damage3 = 1; DY3 = 1; DX3 = 1; CoolTime3 = 25; Speed3 = 5;

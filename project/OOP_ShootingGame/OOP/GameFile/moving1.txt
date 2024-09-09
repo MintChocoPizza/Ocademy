@@ -1,0 +1,21 @@
+MaxMoving = 16;
+
+MovingCool1 = 5; MovingY1 = 0; MovingX1 = -1;
+MovingCool2 = 5; MovingY2 = 0; MovingX2 = -1;
+MovingCool3 = 5; MovingY3 = 0; MovingX3 = -1;
+MovingCool4 = 5; MovingY4 = 0; MovingX4 = -1;
+
+MovingCool5 = 5; MovingY5 = 0; MovingX5 = 1;
+MovingCool6 = 5; MovingY6 = 0; MovingX6 = 1;
+MovingCool7 = 5; MovingY7 = 0; MovingX7 = 1;
+MovingCool8 = 5; MovingY8 = 0; MovingX8 = 1;
+
+MovingCool9 = 5; MovingY9 = 0; MovingX9 = 1;
+MovingCool10 = 5; MovingY10 = 0; MovingX10 = 1;
+MovingCool11 = 5; MovingY11 = 0; MovingX11 = 1;
+MovingCool12 = 5; MovingY12 = 0; MovingX12 = 1;
+
+MovingCool13 = 5; MovingY13 = 0; MovingX13 = -1;
+MovingCool14 = 5; MovingY14 = 0; MovingX14 = -1;
+MovingCool15 = 5; MovingY15 = 0; MovingX15 = -1;
+MovingCool16 = 5; MovingY16 = 0; MovingX16 = -1;

@@ -1,0 +1,17 @@
+Player = Player1.txt;
+
+MaxEnemy = 2;
+
+EnemySkin1 = #;
+EnemyHP1 = 3;
+EnemyY1 = 3;
+EnemyX1 = 10;
+EnemyMove1 = moving1.txt;
+EnemyGun1 = bullet1.txt;
+
+EnemySkin2 = #;
+EnemyHP2 = 3;
+EnemyY2 = 3;
+EnemyX2 = 70;
+EnemyMove2 = moving2.txt;
+EnemyGun2 = bullet1.txt;
